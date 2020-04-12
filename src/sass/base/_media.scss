@@ -1,0 +1,259 @@
+@media (max-width: 992px) {
+   
+    
+    .promo {
+        min-height: 600px;
+        padding: 15px 0 93px 0;
+        background: url(../img/main.jpg) center (center/cover) no-repeat;
+        width: 100%;
+    
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-top: 90px;
+           
+        }
+        &__header {
+            color: white;
+            font-size: 32px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 42px;
+            margin-right: 25%;
+            
+    
+        }
+        &__subheader {
+            margin-top: 17px;
+            color: white;
+            font-size: 17px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-right: 25%;
+    
+        }
+        &__icons {
+            margin-top: 65px;
+            width: 300px;
+            margin-right:30%;
+        
+            
+    
+        }
+        &__icon {
+            width: 200px;
+            text-align: center;
+            color: white;
+            font-weight: 400;
+            font-size: 14px;
+    
+            img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 20px;
+    
+            }
+        }
+        &__link {
+            display: block;
+            margin: 0 auto;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 18px;
+            
+            a{
+                text-transform: uppercase;
+                text-decoration: underline;
+                color: white;
+            }
+        }
+        
+    
+    
+    }
+
+    .button{
+        &__main {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        }
+        
+    }
+    .header{
+        &__contacts {
+            margin-right: 20px;
+        }
+    }
+
+    .feed-form {
+        margin:0 auto;
+        margin-top: 30px;
+    }
+
+    .consultation {
+        h2.left {
+            text-align: center;
+            font-size: 20px;
+        }
+        &__descr {
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+
+    .advantages__text {
+        text-align: center;
+        font-size: 13px;
+        width: 200px;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+    .header__phone {
+        font-size: 15px;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    .promo__header{
+        margin-right: 19%;
+    }
+}
+
+@media (max-width: 576px) {
+    .promo {
+        &__header {
+            margin-right: 18%;
+    }
+        &__subheader {
+            margin-right: 21%;
+        }
+        &__icons {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-right: 17%;
+        }
+        &__icon {
+            margin-bottom: 30px;
+        }
+    }
+
+    .advantages {
+        &__icons {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__text {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+
+        
+
+        &__descr {
+            margin-top: 10px;
+        }
+    }
+
+}
+
+@media (max-width: 520px) {
+        header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+               
+        }
+
+        .header {
+            &__official {
+                margin-top: 20px;
+            }
+            &__logo {
+                margin-top: 20px;
+            }
+            &__contacts {
+                margin-top: 20px;
+            }
+            &__phone {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 15px;
+            }
+        }
+
+        .promo {
+            &__header {
+                display: block;
+                margin: 0 auto;
+            }
+            &__subheader {
+                margin-right: 12%;
+            }
+
+            &__icons {
+                margin-right: 10%;
+            }
+        }
+
+        button.button {
+            width: 300px;
+            height: 70px;
+            font-size: 20px;
+        }
+
+        
+}
+
+
+@media (max-width: 320px) {
+        .promo {
+            &__header {
+                margin-right: 10%;
+                font-size: 21px;
+            }
+            &__subheader {
+               font-size: 12px;
+            }
+            &__icons {
+                margin-right: -10%;
+            }
+        }
+
+
+        button.button {
+            width: 200px;
+            height: 70px;
+            font-size: 13px;
+        }
+
+        .advantages {
+            &__subheader {
+                font-size: 22px;
+            }
+        }
+
+
+
+
+}
+
+
+
+
+
+
+
+
